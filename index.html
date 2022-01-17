@@ -1,121 +1,439 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>scss</title>
-        <link rel="stylesheet" href="css/style.css">    
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catScarf</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <div class="mobile-header">
+        <div class="mobile-header-in">
+            <div class="mobile-header-in-nondrop">
+                
+                <input type="checkbox" id="mobile-check">
+                <label for="mobile-check">
+                    <div class="nondrop-left" id="dar">
+                        <div class="nondrop-left-zurag">
+                            <img src="./images/cat.png" alt="">
+                        </div>
+
+                        <div class="nondrop-left-ug">
+                            <p>
+                                CAT<span class="tom-s">S</span>CARF
+                            </p>
+                        </div>
+
+                        <a href="https://www.catscarf.com/cart" target="_blank">
+                            <div class="nondrop-button"></div>
+                        </a>
+                    </div>
+                </label>
+
+
+                <div class="mobile-header-in-drop">
+                    <a href="#page-2-chop">
+                        <div class="shop shop-top">
+                            Shop
+                        </div>
+                    </a>
+    
+                    <a href="#page-7-target">
+                        <div class="shop">
+                            About
+                        </div>
+                    </a>
+    
+                    <a href="https://www.catscarf.com/blogs/thoughts/">
+                        <div class="shop">
+                            Thoughts
+                        </div>
+                    </a>
+    
+                    <a href="#page-9-target">
+                        <div class="shop">
+                            Contact
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mobile-header  end-------------------------- -->
+
+
+    <!-- ----------------------------DESKTOP-header  end-------------------------- -->
+
+    <div class="page-1">
+        <!-- ------------------------------------ -->
+
         <div class="header">
-            <ul class="menu">
-                <li><a href="">Shop</a></li>
-                <li><a href="">About</a></li>
-                <li class="divLi" >
-                    <img src="css/pics/PngItem_833322.png" class="catLogo" alt="cat logo">
-                    <div class="divCat">CATSCARF</div>
-                </li>
-                <li><a href="">Thoughts</a></li>
-                <li><a href="" class="contactColor">Contact</a></li>
-                <img src="css/pics/menu-icon.png" class="menuLogo" alt="menu logo">              
-            </ul>
-        </div>
-        <div class="wrapper width-f">
-            <div class="section1 bg-cover">
-                <div class="content">
-                    <div class="content1"><h1 class="f-color .bor-bot">2020 collection</h1></div>
-                    <div class="content2"><a href="" class="f-color">coming soon</a></div>                    
+            <div class="header-in">
+                <div class="header-in-left">
+                    <a href="#page-2-chop">
+                        <div class="header-in-left-child">
+                            Shop
+                        </div>
+                    </a>
+                    <a href="#page-7-target">
+                        <div class="header-in-left-child">
+                            About
+                        </div>
+                    </a>
+                </div>
+
+                <a href="#">
+                    <div class="header-in-middle">
+                        <div class="header-in-middle-img">
+                            <img src="./images/cat.png" alt="">
+                        </div>
+
+                        <div class="header-in-middle-word">
+                            catscarf
+                        </div>
+                    </div>
+                </a>
+
+
+                <div class="header-in-left">
+                    <a href="https://www.catscarf.com/blogs/thoughts/">
+                        <div class="header-in-left-child">
+                            Thoughts
+                        </div>
+                    </a>
+                    <a href="#page-9-target">
+                        <div class="header-in-left-child">
+                            Contact
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="shop1">
-            <div class="signHeader">
-                <h5>catscarf</h5>
-                <h1>Signature</h1>
-                <h3>Autumn colors. Luxurious fibers. High fashion.</h3>
+        <!-- ----------------------------------------- -->
+
+
+        <a href="#">
+            <div class="page-1-square"></div>
+        </a>
+
+        <div class="page-1-in">
+            <div class="page-1-in-top">
+                <p >2020</p>
+                <p>Collection</p>
             </div>
-            <div class="signScarf">
-                <div class="pic img1"></div>
-                <div class="pic img2"></div>
-                <div class="pic img3"></div>
-            </div>
+
+            <a href="#">
+                <div class="page-1-in-bottom">
+                    coming soon
+                </div>  
+            </a>
         </div>
-        <div class="shop2">
-            <div class="springHeader">
-                <h5>catscarf</h5>
-                <h1>Spring</h1>
-                <h3>Bright. Bold. Adorable.</h3>
+    </div>
+    <!-- ---------------------page 1 end----------------------------- -->
+
+    <div class="page-2-cont" id="page-2-chop">
+        <div class="page-2">
+            <div class="page-2-top">    
+                <p>CATSCARF</p>
+                <h1>SIGNATURE</h1>
+                <div class="hr"></div>
+                <p class="p2">Autumn colors. Luxurious fibers. High fashion.</p>
             </div>
-            <div class="springScarf">
-                <div class="pic img4"></div>
-                <div class="pic img5"></div>
-                <div class="pic img6"></div>
-            </div>            
-        </div>
-        <div class="shop3">
-            <div class="winterHeader">
-                <h5>catscarf</h5>
-                <h1>Winter</h1>
-                <h3>Striking design. Pure Comfort. High Fashion.</h3>
-            </div>
-            <div class="winterScarf">
-                <div class="pic img7"></div>
-                <div class="pic img8"></div>
-                <div class="pic img9"></div>
-            </div>
-        </div>
-        <div class="shop4">
-            <div class="halloHeader">
-                <h5>catscarf</h5>
-                <h1>The Hallow's Eve</h1>
-                <h3>Reversible. Comfortable. Badass.</h3>
-            </div>
-            <div class="halloScarf">
-                <div class="pic img10"></div>
-                <div class="pic img11"></div>
-            </div>
-        </div>
-        <div class="divider">
-            <div class="dividerImg"></div>
-            <div class="dividerContent">
-                <h5>catscarf</h5>
-                <h1>High Fashion</h1>
-                <h3>Born from a need for high quality, artisan hand-knit pet fashion for all seasons. Our collections have a little something for every beloved feline in your life.</h3>
-            </div>
-            <div class="dividerEnd">
-                <div class="dividerCard">
-                    <div class="divCard">
-                        <div class="pic img12"></div>
-                        <h3>Premium Yarns</h3>
-                        <hr>
-                        <p>From the Andes in Peru to South of Beijing, we scoured the globe to find yarns that are both animal-friendly and of the upmost quality. Alpaca, mink, and recycled silk are just some of the fibers we have in our arsenal. When it comes to your cat's comfort, we don't play dice.</p>
+
+            <div class="page-2-bottom">
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/Clyde_brown_large.jpg?v=1379412622" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br> CLYDE</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
                     </div>
-                    <div class="divCard">
-                        <div class="pic img13"></div>
-                        <h3>Custom Fit</h3>
-                        <hr>
-                        <p>Fat cat, skinny cat, small cat, tall cat – there's a CatScarf for all. We're here to cater to your cat's specific needs. You tell us your cat's measurements and we craft your loved one a scarf that is not only fashionable and made with love, but has an impeccable fit.</p>
+                </a>
+                <!-- ---------------------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/Squirrel_kiwi_large.jpg?v=1523821881" alt="">
+                        </div>
+
+                        <div class="first-word shar">
+                            <h2>The <br>  Squirrel</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
                     </div>
-                    <div class="divCard">
-                        <div class="pic img14"></div>
-                        <h3>Knit By Hand</h3>
-                        <hr>
-                        <p>Each scarf is painstakingly knit by hand for the cat it was purchased for. We understand how important your cat is and what they deserve. Hours are spent clacking away, knitting until the scarf is flawless. Not all scarves make the cut; we accept nothing less than perfection.</p>                      
+                </a>
+                <!-- --------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/Sid_Nancy_charcoal_coral_large.jpg?v=1379412706" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br>  Sid & Nancy</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
                     </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------page 2 end ------------------------------ -->
+
+    <div class="page-2-cont">
+        <div class="page-2">
+            <div class="page-2-top">    
+                <p>CATSCARF</p>
+                <h1>SIGNATURE</h1>
+                <div class="hr"></div>
+                <p class="p2">Autumn colors. Luxurious fibers. High fashion.</p>
+            </div>
+
+            <div class="page-2-bottom">
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/gus-blue_large.jpg?v=1390356518" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br> CLYDE</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- ---------------------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/mobius_pink_large.jpg?v=1397337924" alt="">
+                        </div>
+
+                        <div class="first-word shar">
+                            <h2>The <br>  Squirrel</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- --------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/cowl_bluegrey_large.jpg?v=1397336703" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br>  Sid & Nancy</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------page 3 end ---------------------------- -->
+
+    <div class="page-2-cont">
+        <div class="page-2">
+            <div class="page-2-top">    
+                <p>CATSCARF</p>
+                <h1>SIGNATURE</h1>
+                <div class="hr"></div>
+                <p class="p2">Autumn colors. Luxurious fibers. High fashion.</p>
+            </div>
+
+            <div class="page-2-bottom">
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the-ricky2_large.jpg?v=1429669877" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br> CLYDE</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- ---------------------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the-felix-grey_large.jpg?v=1429670024" alt="">
+                        </div>
+
+                        <div class="first-word shar">
+                            <h2>The <br>  Squirrel</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- --------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/theidk2_large.jpg?v=1429669930" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br>  Sid & Nancy</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------page 4 end---------------------------------- -->
+
+
+
+    
+    <div class="page-2-cont">
+        <div class="page-2">
+            <div class="page-2-top">    
+                <p>CATSCARF</p>
+                <h1>SIGNATURE</h1>
+                <div class="hr"></div>
+                <p class="p2">Autumn colors. Luxurious fibers. High fashion.</p>
+            </div>
+
+            <div class="page-2-bottom">
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_skull_bones_detail_large.jpg?v=1382844328" alt="">
+                        </div>
+
+                        <div class="first-word">
+                            <h2>The <br> CLYDE</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+                <!-- ---------------------------------------- -->
+                <a href="#">
+                    <div class="page-2-bottom-in">
+                        <div class="first-img">
+                            <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_solid_large.jpg?v=1381798982" alt="">
+                        </div>
+
+                        <div class="first-word shar">
+                            <h2>The <br>  Squirrel</h2>
+                            <div class="first-hr"></div>
+                            <div class="first-p">view details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------page 5 end -------------------------- -->
+
+    <div class="page-6"></div>
+    <!-- -------------------------------page 6 end -------------------------- -->
+
+    <div class="page-7-cont" id="page-7-target">
+        <div class="page-7">
+            <div class="page-7-top">
+                <div class="page-7-top-in">
+                    <p>CATSCARF</p>
+                    <h1>High Fashion</h1>
+                    <p>Born from a need for high quality, artisan hand-knit pet fashion for all seasons. Our collections have a little something for every beloved feline in your life.</p>
+                </div>
+            </div>
+
+            <div class="page-7-bottom">
+                <div class="page-7-bottom-child">
+                    <div class="page-7-bottom-child-img">
+                        <img src="https://cdn.shopify.com/s/files/1/0261/4687/t/7/assets/img_premiumyarns.gif?v=11930263352390733987" alt="">
+                    </div>
+                    <h3>Premium Yarns</h3>
+                    <div class="hr"></div>
+                    <p>
+                        Born from a need for high quality, artisan hand-knit pet fashion for all seasons. Our collections have a little something for every beloved feline in your life.
+                    </p>
+                </div>
+
+                <!-- ----------------------------------------------- -->
+                <div class="page-7-bottom-child">
+                    <div class="page-7-bottom-child-img">
+                        <img src="https://cdn.shopify.com/s/files/1/0261/4687/t/7/assets/img_custom_fit.gif?v=9893789763712130062" alt="">
+                    </div>
+                    <h3>Custom Fit</h3>
+                    <div class="hr"></div>
+                    <p>
+                        Fat cat, skinny cat, small cat, tall cat – there's a CatScarf for all. We're here to cater to your cat's specific needs. You tell us your cat's measurements and we craft your loved one a scarf that is not only fashionable and made with love, but has an impeccable fit.
+                    </p>
+                </div>
+                <!-- ----------------------------------------------------------- -->
+                <div class="page-7-bottom-child">
+                    <div class="page-7-bottom-child-img">
+                        <img src="https://cdn.shopify.com/s/files/1/0261/4687/t/7/assets/img_knitbyhand.gif?v=11874557363413673372" alt="">
+                    </div>
+                    <h3>Knit By Hand</h3>
+                    <div class="hr"></div>
+                    <p>
+                        Each scarf is painstakingly knit by hand for the cat it was purchased for. We understand how important your cat is and what they deserve. Hours are spent clacking away, knitting until the scarf is flawless. Not all scarves make the cut; we accept nothing less than perfection.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="footerPic"></div>
-        <div class="footer">
-            <img src="css/pics/PngItem_833322.png" alt="cat logo">
-            <div class="divCatEnd">CATSCARF</div>
-            <div class="logos">
-                <img src="css/pics/mail.png" alt="">
-                <img src="css/pics/face.png" alt="">
-                <img src="css/pics/insta.png" alt="">
+    </div>
+    <!-- -----------------------page 7 end ---------------------------- -->
+
+    <div class="page-8"></div>
+    <!-- -----------------------page 8 end ------------------------------------ -->
+
+    <div class="page-9-cont" id="page-9-target">
+        <div class="page-9">
+            <a href="#">
+                <div class="page-9-header">
+                    <div class="page-9-img">
+                        <img src="./images/cat.png" alt="">
+                    </div>
+                    <p class="alishuu">CATSCARF</p>
+                </div>
+            </a>
+            <div class="page-9-middle">
+                <div class="page-9-middle-child-cont">
+                    <a href="#">
+                        <div class="page-9-middle-child"></div>
+                    </a>
+                    <a href="http://instagram.com/catscarf1">
+                        <div class="page-9-middle-child"></div>
+                    </a>
+                    <a href="http://twitter.com/catscarf">
+                        <div class="page-9-middle-child"></div>
+                    </a>
+                    
+                </div>
             </div>
-            <div class="para">A portion of every CatScarf goes to help animals in need</div>
-            <div class="end">2015 CatScarf</div>
+            <div class="page-9-footer">
+                <p>A portion of every CatScarf goes to help animals in need</p>
+            </div>
         </div>
-    </body>
+    </div>
+
+
+
+</body>
 </html>
